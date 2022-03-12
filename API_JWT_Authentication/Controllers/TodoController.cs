@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace API_JWT_Authentication.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")] 
     [ApiController]
     public class TodoController : ControllerBase
